@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="text/javascript">
+      function somar(){
+        let val1 = document.getElementById("val1").value;
+        let val2 = document.getElementById("val2").value;
+        
+        let resultado =document.getElementById("result");
+        let soma = parseFloat(val1) + parseFloat(val2);
+        console.log("resultado: "+ soma);
+        resultado.innerHTML="<p>Resultado: "+soma+"</p>";
+        
+
+        
+
+      }
+    </script>
+    <!-- Bootstrap CSS -->
+   -  <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Olá, mundo!</title>
+  </head>
+  <body>
+    <div class="corpo">
+      <div >
+        <h1 >Calculadora</h1>
+        <label >Digite o valor 1:</label>
+
+        <br>
+        <input id="val1" type="number" value="0">      
+        <br>
+        <label >Digite o valor 2:</label>
+
+        <br>
+        <input id="val2" type="number" value="0">      
+        <br>
+
+        <button onclick="somar()" class="botao">Somar</button>
+        
+      </div>
+      <div class="result" id="result">
+        <p>Resultado:</p>
+      </div>
+    </div>	
+  
+
+
+ </body>
+</html>

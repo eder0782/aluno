@@ -1,0 +1,61 @@
+body{
+    background-color: #ccc;
+    text-align: center;
+        
+}
+*{
+    margin-top: 10px;
+    font-family: 'Handlee', cursive;
+    
+}
+
+label{
+
+    font-style: italic;
+    
+}
+
+.corpo{
+
+    border: -20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid burlywood;
+    border-radius: 20px;    
+
+}
+
+input{
+    border-radius: 5px;
+    color: lightseagreen;
+    background-color: lightyellow;
+}
+
+
+
+.botao{
+    color: white;
+    background-color: lightcoral;
+    border-color: lightcoral;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;    
+    
+}
+
+
+.result{
+    margin-top: 50px;
+    border:10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: darksalmon;
+    height: 30px;
+    text-align: justify;
+    padding-left: 15px;
+    min-width: 50px;    
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
